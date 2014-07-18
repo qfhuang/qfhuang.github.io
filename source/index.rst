@@ -16,6 +16,8 @@ tpop test title
 
    tpop/test
    tpop/cmparray
+   tpop/vim
+   tpop/argproc
 
 Indices and tables
 ==================
