@@ -34,6 +34,7 @@ scull实现下列设备：
 .. code-block:: c
 
     <linux/fs.h>
+
     int register_chrdev_region(dev_t first, unsigned int count, char *name); /* 成功返回0,失败返回负数 */                                
 
 2. 动态注册(推荐)：
@@ -137,3 +138,24 @@ read/write核心调用函数
 
 .. image:: image/read.png
    :width: 450px
+
+
+总结
+------
+
+============================= =
+                            
+============================= =
+**注册设备号**
+``register_chrdev_region``       
+``alloc_chrdev_region``
+``unregister_chrdev_region``
+**创建cdev**
+``cdev_alloc``                  
+``cdev_init``
+``cdev_add``
+``cdev_del``
+**read/write使用**
+``copy_to_user``                 
+``copy_from_user``              
+============================= =
