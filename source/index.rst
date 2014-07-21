@@ -12,12 +12,21 @@ tpop test title
 -------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    tpop/test
    tpop/cmparray
    tpop/vim
    tpop/argproc
+   tpop/getchar2array
+
+设备驱动
+---------
+
+.. toctree::
+   :maxdepth: 2
+
+   drv/scull.rst
 
 Indices and tables
 ==================
