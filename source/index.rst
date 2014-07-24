@@ -27,6 +27,8 @@ tpop test title
    :maxdepth: 2
 
    drv/scull.rst
+   drv/sem.rst
+   drv/completion.rst
 
 Indices and tables
 ==================
