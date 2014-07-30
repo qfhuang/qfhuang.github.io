@@ -23,12 +23,23 @@ tpop test title
 设备驱动
 ---------
 
+
+
+字符设备驱动
+
 .. toctree::
    :maxdepth: 2
 
    drv/scull.rst
+
+并发机制
+
+.. toctree::
+   :maxdepth: 2
+
    drv/sem.rst
    drv/completion.rst
+   drv/spin.rst
 
 Indices and tables
 ==================
