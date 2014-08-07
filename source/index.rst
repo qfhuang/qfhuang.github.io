@@ -23,8 +23,6 @@ tpop test title
 设备驱动
 ---------
 
-
-
 字符设备驱动
 
 .. toctree::
@@ -40,6 +38,14 @@ tpop test title
    drv/sem.rst
    drv/completion.rst
    drv/spin.rst
+
+lisp
+------
+
+.. toctree::
+   :maxdepth: 2
+
+    lisp/slime.rst
 
 Indices and tables
 ==================
