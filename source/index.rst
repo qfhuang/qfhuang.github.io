@@ -19,6 +19,9 @@ tpop test title
    tpop/vim
    tpop/argproc
    tpop/getchar2array
+   tpop/learn-git
+   tpop/call-graph
+   tpop/gcc
 
 设备驱动
 ---------
