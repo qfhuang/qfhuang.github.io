@@ -32,6 +32,7 @@ tpop test title
    :maxdepth: 2
 
    drv/scull.rst
+   drv/tiny6410_kernel
 
 并发机制
 
